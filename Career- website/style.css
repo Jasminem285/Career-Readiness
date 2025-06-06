@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fdb8b8;
+    color:#765d8d;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    font-size: 120%;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    float: left;
+}
+
+nav a{
+    display: block;
+    padding: 20px;
+}
+
+a:link{
+    text-decoration: none;
+    color:#ff2aad;
+}
+
+a:visited{
+    text-decoration: none;
+    color:#ff2d2d;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#ff2d2d;
+}
+
+a:active{
+    text-decoration: none;
+    color: #970f4f;
+}
+
+h1{
+    font-size: 160%;
+    color: #ff517c;
+    text-align: center;
+}
+
+h2{
+    font-size: 120%;
+    color:#fff7c8;
+    text-align: left;
+}
+
+article{
+    background-color: #fd909d;
+    width: 75%;
+    padding: 1.5em;
+}
+
+footer{
+    color:#fffbf3;
+    font-size: 100%;
+    text-align: center;
+}
+
+.queensimg{
+    width:300px;
+    height:auto;
+    float: right;
+    padding: 20px;
+}
+
+.edimg{
+    width: 400px;
+    height: auto;
+    float: right;
+    padding: 10px;
+}
+
+.experienceimg{
+    width: 300px;
+    height: auto;
+    float: left;
+    padding:20px;
+    padding-right:80px;
+}
+
+.interestimg{
+    width: 320px;
+    height: auto;
+    float: right;
+    padding: 20px;
+}
+
+.contactimg{
+    width: 250px;
+    height: auto;
+    float: left;
+    padding: 20px;
+    padding-right: 80px;
+}
